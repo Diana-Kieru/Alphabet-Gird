@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/Academy.ttf"); //change this to your own font if you downloaded a differently named font
+        Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/SummerLoving.otf"); //change this to your own font if you downloaded a differently named font
         gridView = (GridView) findViewById(R.id.baseGridView);
         gridView.setAdapter(new AlphabetAdapter(this, letters, typeface));
     }
